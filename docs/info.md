@@ -9,12 +9,9 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+Analog building-blocks for Tiny Tapeout 8:
+- Bandgap
+- Ref. Current Source
+- LDO
+- Ring Oscillator
 
-## How to test
-
-Explain how to use your project
-
-## External hardware
-
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
