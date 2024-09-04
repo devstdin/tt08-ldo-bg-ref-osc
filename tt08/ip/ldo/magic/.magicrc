@@ -1,0 +1,10 @@
+source $env(PDK_ROOT)/sky130A/libs.tech/magic/sky130A.magicrc
+
+puts stdout "Sourcing design .magicrc..."
+
+# load bind keys (optional)
+source magic_keys
+
+# grid
+grid 0.05um 0.05um
+snap user

@@ -1,0 +1,39 @@
+###########################################################################
+# Environment variable PDK_ROOT needs to be available!
+###########################################################################
+#### SOURCE PDK xschemrc
+###########################################################################
+source $env(PDK_ROOT)/sky130B/libs.tech/xschem/xschemrc
+
+###########################################################################
+#### LIBRARY SEARCH PATH
+###########################################################################
+set XSCHEM_LIBRARY_PATH {}
+append XSCHEM_LIBRARY_PATH ${XSCHEM_SHAREDIR}/xschem_library
+append XSCHEM_LIBRARY_PATH :$env(PWD)
+append XSCHEM_LIBRARY_PATH :$env(PDK_ROOT)/sky130B/libs.tech/xschem
+append XSCHEM_LIBRARY_PATH :$USER_CONF_DIR/xschem_library 
+
+###########################################################################
+#### NETLIST DIRECTORY
+###########################################################################
+set netlist_dir ./
+
+###########################################################################
+#### DESIGN
+###########################################################################
+set XSCHEM_START_WINDOW {bmbg_tb.sch}
+
+###########################################################################
+#### SKYWATER PDK
+###########################################################################
+set SKYWATER_MODELS $env(PDK_ROOT)/sky130B/libs.tech/ngspice
+set SKYWATER_STDCELLS $env(PDK_ROOT)/sky130B/libs.ref/sky130_fd_sc_hd/spice
+
+###########################################################################
+#### DESIGN SPECIFIC VARIABLES
+###########################################################################
+set CORNER tt
+set TB_ID 0
+set EXIT_NGSPICE 0
+set MC_RUNS 0
