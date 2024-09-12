@@ -1316,4 +1316,6 @@ flabel metal2 -1820 1130 -1680 1650 0 FreeSans 1600 0 0 0 INN
 port 5 nsew
 flabel metal2 -1820 -490 -1680 50 0 FreeSans 1600 0 0 0 INP
 port 6 nsew
+<< properties >>
+string MASKHINTS_HVI -1217 -9017 5257 -6583
 << end >>
