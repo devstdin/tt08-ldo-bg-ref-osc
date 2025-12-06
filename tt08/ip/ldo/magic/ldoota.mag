@@ -2711,4 +2711,6 @@ flabel metal2 -1490 -5910 -780 -5050 0 FreeSans 1600 0 0 0 IB
 port 3 nsew
 flabel metal2 16570 -2740 17170 -1630 0 FreeSans 1600 0 0 0 VOUT
 port 2 nsew
+<< properties >>
+string MASKHINTS_HVI 911 -529 8559 5038 -1319 -4949 16489 -1723
 << end >>

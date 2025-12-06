@@ -598,4 +598,6 @@ flabel metal1 s -4829 3192 -4569 3545 0 FreeSans 1600 0 0 0 VSS
 port 2 nsew
 flabel metal1 s -4831 4077 -4571 4430 0 FreeSans 1600 0 0 0 VDD
 port 1 nsew
+<< properties >>
+string MASKHINTS_HVI 3365 -5990 7701 -113 8982 -1446 16642 4294
 << end >>
