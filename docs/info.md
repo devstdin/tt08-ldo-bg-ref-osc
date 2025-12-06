@@ -7,6 +7,8 @@
   - [OPAMP](https://devstdin.github.io/sky130artefacts_tt08/ldo/ldoota/)
 - [Ring Oscillator (riosc)](https://devstdin.github.io/sky130artefacts_tt08/riosc/riosc/)
 
+A trimmable version of the ring oscillator was taped out with the [IHP September shuttle](https://github.com/IHP-GmbH/TO_Sep2025/tree/main/Lumos).
+
 ![tt08](tt08.png)
 
 ## Measurement Results
